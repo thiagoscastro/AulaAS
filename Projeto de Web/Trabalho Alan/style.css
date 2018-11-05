@@ -1,0 +1,201 @@
+﻿body, *
+{
+    margin:0px;
+    padding:0px;
+    list-style:none;
+    
+}
+
+
+
+
+header{
+  width: 100%;
+    
+        DISPLAY: flex;
+    
+    
+}
+header div{
+    float: left;
+    
+   
+    
+}
+
+header nav ul
+{
+    
+    display: -webkit-box;
+    padding: 0px 150px;
+    
+}
+
+header nav ul li
+{
+    list-style-type: none;
+    padding:68px 10px; 
+    /*margin: 0px 13px;*/
+    text-decoration:none;
+    color: white;
+    font-family: sans-serif;
+    
+}
+
+
+header nav ul li a
+{
+   text-decoration: none;
+}
+
+header nav ul li a:hover{
+    text-decoration: underline;
+    color:#FFBC00;
+}
+
+
+
+.centralizar{
+    width: 70%;
+    max-width: 100%;
+    margin:0 auto;
+    display: table;
+    
+}
+#container {
+ 	display:inline-table;
+  	position:relative;
+	
+	width:100%;
+	/*max-width:100%;*/
+	height:100vh;
+	background:url('./images/aviao.png');
+	background-size:cover;
+	background-position:center center;
+	background-attachment:fixed;
+
+
+}
+
+#container figcaption {
+  position:absolute;
+  top: 145px;
+  right:550px;
+  font-size: 40px;
+  color: white;
+  text-shadow: 0px 55px 5px black;
+}
+/*.container {
+  position: relative;
+}
+
+#image {
+  position: absolute;
+}
+
+#texto {
+  position: absolute;
+  font-size: 32px;
+  left: 250px;
+  top: 135px;
+}*/
+
+.imag{
+ 	text-align:center;
+ 	padding:3px;
+	float:left;
+	margin:50px;
+	border:#d4dcde 1px solid;
+	width:300px;
+	height:248px;
+	font-family:"Courier New";
+	font-size:20px;
+	color:blue;
+	font-weight:bolder;
+   
+}
+
+.imag a{
+    text-decoration: none;
+}
+
+/*alinhamento do mapa*/
+.mapa{
+     text-align: center;
+}
+.mapa >iframe{
+    height: 450px;
+    width: 900px;
+}
+
+
+
+#container {
+    width: 100%;
+    border-color: blue;
+    text-align: center;
+    
+}
+
+
+#container h3{
+   padding: 20px;
+   margin: 5%;
+    font-size: 28px;
+}
+
+
+.tx{
+border: 5px solid #ff00;
+border-radius: 5px;
+border-color:#5abce7;;
+
+width:400px;
+height:50px;
+padding-left:10px;
+margin-bottom:15%;
+color:#00f;
+}
+
+.lb{
+display: block;
+}
+
+.bt{border:none;
+border-radius: 15px;
+float:right;
+margin-top:10px;
+margin-left: 15px;
+padding: 10px 50px;
+font-size:16px;
+background: #335aff;
+font-weight:bolder;
+}
+
+.bt:hover{
+cursor:pointer;
+color:#FFBC00;
+
+}
+
+.cont_end {
+    float: left;
+   width: 200px; height: 400px;
+  margin: 70px 10px;
+    text-align: left;
+}
+
+
+#endereco { float: left; padding:0px 400px; }
+
+
+
+
+footer{
+                background-color: #2AA9E0; 
+                text-align: center;
+                padding: 30px;
+                border-radius: 0 0 30px 30px;/*deixa a borda arredondada*/
+                border-top: 10px solid #550dff;
+                font-style:bold;
+            }
